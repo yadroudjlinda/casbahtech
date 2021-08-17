@@ -1,0 +1,209 @@
+/*header*/
+
+.header {
+    background-image: url("../images/header-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    color: $whiteColor;
+    
+    .navbar-brand{
+      font-size: 30px;
+      font-weight: bold;
+    }
+  
+    .navbar {
+  
+        .nav-item {
+          margin-left: 1rem;
+          padding: 0 0.5rem;
+        }
+        
+        .nav-link{
+          transition: all 0.4s ease-in;
+          border-radius: 10px;
+  
+          &:hover {
+            background-color: $greenColor;
+            color: $whiteColor !important;
+          }
+        }
+  
+    }
+  
+    .active {
+      font-weight: bold !important;
+      background-color: $greenColor;
+      color: $whiteColor !important;
+      border-radius: 10px;
+    }
+  
+    .header-content{
+      margin: 4.5rem 0;
+  
+      h1 {
+        width: 40%;
+        font-weight: bold;
+      }
+  
+      p{
+        width: 40%;
+      }
+  
+      a{
+        display: inline-block;
+        transition: all 0.4s ease-in;
+        height: 50px !important;
+        line-height: 50px;
+        border-radius: 10px;
+  
+        &:hover{
+          background-color: $greenColor;
+          padding: 0 1.5rem !important;
+        }
+      }
+     }
+  
+    a{
+      color: $whiteColor !important;
+    }
+  
+    .search {
+      border-radius: 25px !important;
+      background-color: $lightColor;
+      height: 40px;
+      padding: 0 1rem;
+    
+      input {
+        border: none;
+        outline: none;
+        height: 100%;
+        background: none;
+      }
+    
+      .fa-search{
+        color: $whiteColor !important;
+       }
+    
+       ::placeholder {
+        color: $whiteColor !important;
+        font-weight: bold;
+        opacity: 1;
+        }
+        
+        :-ms-input-placeholder {
+        color: $whiteColor;
+        font-weight: bold;
+        }
+        
+        ::-ms-input-placeholder {
+        color: $whiteColor;
+        font-weight: bold;
+        }
+       
+    }
+  
+    .dropdown-menu {
+      padding: 0;
+      border-radius: 10px !important;
+      overflow: hidden;
+    
+      a {
+        color: $blackColor !important;
+        width: 100% !important;
+        height: 50px;
+        display: block;
+        line-height: 40px;
+        font-weight: bold;
+        transition: all 0.4s ease-in;
+    
+        &:hover {
+          background-color: $greenColor;
+          color: $whiteColor !important;
+         }
+      }
+    }
+  
+    .white-div {
+      position: absolute;
+      height: 90px;
+      background-color: $whiteColor;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      z-index: 0 !important;
+    }
+  
+    
+  .search-destination {
+    width: 1000px;
+    margin: auto;
+    color: $blackColor;
+    background-color: $whiteColor;
+    position: relative;
+    z-index: 2;
+    padding: 2rem 3rem;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px $boxShadow;
+  
+    input[type="submit"]{
+      background-color: $blackColor;
+      outline: none;
+      height: 50px;
+      padding: 0 3rem;
+      color: $whiteColor;
+      border-radius: 10px;
+      border:none;
+      transition: all 0.4s ease-in;
+      font-weight: bold;
+      border:1px solid $blackColor;
+  
+      &:hover{
+        background-color: $whiteColor;
+        color: #000;
+    }
+    }
+  
+    form div {
+      flex: 1;
+      margin: 0 1rem;
+    }
+    
+  }
+  
+  .location, .date, .price {
+    border-radius: 10px;
+    padding: 1rem 1rem 0 1rem;
+    p{
+      font-weight: bold;
+      cursor: pointer;
+    }
+  
+    ul li{
+      font-weight: bold;
+      cursor: pointer;
+      padding: 0.4rem 0.7rem !important;
+      transition: all 0.4s ease-in;
+    }
+  
+    ul li:hover{
+      background-color: $greenColor;
+      color: $whiteColor;
+    }
+  }
+  
+  .date {
+    #datepicker {
+      cursor: pointer;
+    }
+  
+    input {
+      border: none;
+      width: 40px;
+      outline: none;
+    }
+  }
+    
+  }
+  

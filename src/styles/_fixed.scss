@@ -1,0 +1,48 @@
+/**fixed navbar**/
+
+.fixed {
+    top: 0;
+    background: $whiteColor;
+    position: fixed;
+    left: 0;
+    right: 0;
+    color: $blackColor !important;
+    z-index: 999;
+    padding: 1.5rem 0 !important;
+    transition: all 0.4s ease-in;
+    box-shadow: 0 10px 15px 0 $boxShadow;
+  
+    .navbar-brand, form a{
+      color: $blackColor !important;
+    }
+  
+    .nav-link{
+      color: $blackColor !important;
+    }
+  
+    .search {
+      border: 1px solid $greenColor;
+      opacity: 1;
+    }
+  
+    form .search .fa-search{
+      color: black !important;
+    }
+  
+    form .search ::placeholder {
+      color: $lightGrey !important;
+      font-weight: bold;
+      opacity: 1;
+    }
+  
+    form .search :-ms-input-placeholder {
+      color: $lightGrey;
+      font-weight: bold;
+    }
+  
+    form .search::-ms-input-placeholder {
+      color: $lightGrey;
+      font-weight: bold;
+    }
+    
+  }

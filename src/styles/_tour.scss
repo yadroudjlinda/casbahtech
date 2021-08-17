@@ -1,0 +1,35 @@
+
+/*** tour section ***/
+
+.tour-content {
+  border-radius: 10px;
+  box-shadow: 0 15px 25px 0 $boxShadow;
+  margin: 0 2rem;
+
+  .tour-content-block {
+    padding: 0 1rem;
+
+    p {
+      font-size: 10px;
+      font-weight: bold;
+    }
+
+    img {
+      width: 15px;
+      height: 15px;
+      margin-top: 0.2rem;
+     }
+    
+  }
+
+  .tour-title {
+    position: absolute;
+    bottom: -30px;
+    border-radius: 10px;
+    left: 1rem;
+    background-color: $whiteColor;
+    padding: 1rem;
+    font-weight: bold;
+    box-shadow: 0 5px 25px $boxShadow;
+  }
+}

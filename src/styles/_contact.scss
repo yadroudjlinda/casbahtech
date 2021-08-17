@@ -1,0 +1,47 @@
+
+/*** contact section **/
+
+.contact-form {
+    padding-right: 2rem;
+   
+     input, textarea{
+       margin-bottom: 1rem;
+       outline: none;
+     }
+   
+     input[type="text"], textarea, input[type="email"] {
+       width: 90%;
+       background-color: $whiteColor;
+       border: 1px solid $borderColor;
+       border-radius: 10px;
+       padding-left: 1rem;
+     }
+   
+     input[type="text"], input[type="submit"], input[type="email"] {
+       height: 50px;
+     }
+   
+     textarea {
+       height: 180px;
+       resize: none;
+       padding-top: 1rem;
+     }
+   
+     input[type="submit"] {
+       width: 180px;
+       background-color: $blackColor;
+       border: 1px solid $blackColor;
+       font-weight: bold;
+       color: $whiteColor;
+       border: none;
+       border-radius: 10px;
+       transition: all 0.4s ease-in;
+   
+       &:hover {
+         width: 180px;
+         background-color: $whiteColor;
+         color: $blackColor;
+         border: 1px solid $blackColor;
+       }
+     }
+   }

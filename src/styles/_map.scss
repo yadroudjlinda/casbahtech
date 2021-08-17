@@ -1,0 +1,25 @@
+/**map**/
+
+.map {
+    text-align: right;
+  
+    iframe{
+      border-radius: 10px;
+      width: 90%;
+      height: 400px;
+    }
+  
+    .address {
+      text-align: left;
+      width: 250px;
+      bottom: -30px;
+      left: 0;
+      padding: 2rem;
+      background-color: $greenColor;
+      border-radius: 10px;
+      color: $whiteColor;
+      font-size: 18px;
+      font-weight: bold;
+    }
+  }
+  
