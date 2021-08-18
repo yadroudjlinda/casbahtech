@@ -1,43 +1,42 @@
 
 /*** pricing section ***/
 
-.pricing-content {
+.card {
     width: 80%;
     margin: auto;
     border-radius: 10px;
     padding: 1.5rem;
+    background-color: $whiteColor;
+
+    &--green{
+      background-color: $greenColor;
+      color: $whiteColor;
+    }
+    
   
-    img{
+    &__icon{
       width: 20px;
       height: 20px;
     }
   
-    h2 {
+    &__bigtitle {
       font-weight: bold;
     }
   
-    h6{
+    &__smalltitle{
       font-weight: bold;
     }
   
-    .small-p {
+    &__smaldesc {
       font-size: 12px;
       font-weight: bold;
       padding: 0;
       margin: 0;
     }
   
-    a{
+    &__link{
       transition: all 0.4s ease-in;
       font-weight: bold;
-    }
-    
-  }
-  
-  /*** pricing section**/
-  #pricing-content1, #pricing-content3 {
-    background-color: $whiteColor;
-    a{
       height: 50px;
       color: $whiteColor;
       background-color: $greenColor;
@@ -51,26 +50,16 @@
         border: 1px solid $greenColor;
         color: $greenColor;
       }
+
+      &--black{
+        background-color: $blackColor;
+        color: $whiteColor;
+        &:hover {
+          background-color: $whiteColor;
+          color: $greenColor;
+        }
+      }
     } 
   } 
   
-  #pricing-content2 {
-    background-color: $greenColor;
-    color: $whiteColor;
-  
-    a{
-      background-color: $blackColor;
-      color: $whiteColor;
-      line-height: 50px;
-      height: 50px;
-      width: 100%;
-      border-radius: 10px;
-      margin-top: 3rem;
-  
-      &:hover {
-        background-color: $whiteColor;
-        color: $greenColor;
-      }
-    }
-  }
-  
+ 
