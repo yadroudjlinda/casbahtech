@@ -23,27 +23,17 @@
         .nav-link{
           transition: all 0.4s ease-in;
           border-radius: 10px;
-  
-          &:hover {
-            background-color: $greenColor;
-            color: $whiteColor !important;
-          }
+
         }
   
-    }
-  
-    .active {
-      font-weight: bold !important;
-      background-color: $greenColor;
-      color: $whiteColor !important;
-      border-radius: 10px;
     }
   
     .header-content{
       margin: 4.5rem 0;
   
       h1 {
-        width: 40%;
+        width: 50%;
+        font-size: 42px;
         font-weight: bold;
       }
   
@@ -71,7 +61,7 @@
   
     .search {
       border-radius: 25px !important;
-      background-color: $lightColor;
+      background-color: rgba(255, 255, 255, 0.15);
       height: 40px;
       padding: 0 1rem;
     
@@ -88,18 +78,15 @@
     
        ::placeholder {
         color: $whiteColor !important;
-        font-weight: bold;
         opacity: 1;
         }
         
         :-ms-input-placeholder {
         color: $whiteColor;
-        font-weight: bold;
         }
         
         ::-ms-input-placeholder {
         color: $whiteColor;
-        font-weight: bold;
         }
        
     }
@@ -137,13 +124,12 @@
   
     
   .search-destination {
-    width: 1000px;
     margin: auto;
     color: $blackColor;
     background-color: $whiteColor;
     position: relative;
     z-index: 2;
-    padding: 2rem 3rem;
+    padding: 3rem 4rem;
     border-radius: 10px;
     box-shadow: 0 10px 30px $boxShadow;
   
@@ -160,24 +146,31 @@
       border:1px solid $blackColor;
   
       &:hover{
-        background-color: $whiteColor;
-        color: #000;
-    }
-    }
-  
-    form div {
-      flex: 1;
-      margin: 0 1rem;
+        background-color: #085840;
+        color:white;
+      }
     }
     
   }
   
   .location, .date, .price {
-    border-radius: 10px;
-    padding: 1rem 1rem 0 1rem;
-    p{
+
+    div {
+      border: 1px solid #CFD4D9; 
+      border-radius: 10px;
+      padding: 0.5rem 1rem;
+      width: 100%;
+    }
+    
+    .select-text {
+      color: #868E96;
+      margin: 0;
+    }
+
+    .select-result {
+      color: #343A40;
       font-weight: bold;
-      cursor: pointer;
+      margin: 0;
     }
   
     ul li{
