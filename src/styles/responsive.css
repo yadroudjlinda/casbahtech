@@ -57,19 +57,11 @@
     .pricing-content {
       width: 100%;
     }
-
-    .search-destination form div{
-        flex-basis: 30% !important;
-        margin-bottom: 1rem;
-    }
     
 }
 
 @media (max-width:568px) {
-    .search-destination form {
-        display: grid !important;
-        margin-bottom: 1rem;
-    }
+  
 }
 
 @media (min-width:600px) and (max-width:992px) {
