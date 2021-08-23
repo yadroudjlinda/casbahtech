@@ -44,3 +44,16 @@
        }
      }
    }
+
+
+   @media (max-width:568px) {
+     
+
+    .contact-form {
+      padding-right: 0 !important;
+    }
+     
+    input[type="text"], input[type="submit"], input[type="email"], textarea  {
+      width: 100% !important;
+    }
+}

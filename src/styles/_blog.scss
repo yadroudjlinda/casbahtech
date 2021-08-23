@@ -3,3 +3,22 @@
 .blog .col-lg-6 a {
     color: $blackColor !important;
   }
+
+
+  @media (max-width:568px) {
+     
+    .blog .col-lg-6 a {
+      display: grid !important;
+      margin-top: 2.5rem;
+
+      img {
+        width: 100%;
+        height: auto;
+        margin-bottom: 1.3rem;
+      }
+       
+      div {
+        padding-left: 0 !important;
+      }
+    }
+  }
