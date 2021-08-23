@@ -3,15 +3,14 @@
 
 .tour-content {
   border-radius: 10px;
-  box-shadow: 0 15px 25px 0 $boxShadow;
+  box-shadow: 0 5px 10px 0 $boxShadow;
   margin: 0 2rem;
 
   .tour-content-block {
     padding: 0 1rem;
 
     p {
-      font-size: 10px;
-      font-weight: bold;
+      font-size: 14px;
     }
 
     img {
@@ -25,11 +24,10 @@
   .tour-title {
     position: absolute;
     bottom: -30px;
-    border-radius: 10px;
+    border-radius: 4px;
     left: 1rem;
     background-color: $whiteColor;
-    padding: 1rem;
-    font-weight: bold;
-    box-shadow: 0 5px 25px $boxShadow;
+    padding: 1rem 1.8rem 1rem 1rem;
+    box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
   }
 }

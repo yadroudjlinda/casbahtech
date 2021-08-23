@@ -71,8 +71,6 @@
         height: 100%;
         background: none;
         color: white;
-
-        
       }
     
       .fa-search{
@@ -208,7 +206,11 @@
     -webkit-appearance: none;
     appearance: none;
     height: 10px;
-  width: 10px;
-  background-image: url('/images/close.png');
-  background-size: 10px 10px;
+    width: 10px;
+    background-image: url('/images/close.png');
+    background-size: 10px 10px;
   }
+
+
+   
+  
