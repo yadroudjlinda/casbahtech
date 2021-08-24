@@ -2,6 +2,10 @@
 
 .blog .col-lg-6 a {
     color: $blackColor !important;
+
+    img {
+      border-radius: 10px;
+    }
   }
 
 

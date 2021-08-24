@@ -5,6 +5,7 @@
   border-radius: 10px;
   box-shadow: 0 5px 10px 0 $boxShadow;
   margin: 0 2rem;
+  overflow: hidden;
 
   .tour-content-block {
     padding: 0 1rem;
@@ -30,6 +31,7 @@
     padding: 1rem 1.8rem 1rem 1rem;
     box-shadow: 0 3px 5px rgba(0,0,0, 0.1);
   }
+
 }
 
 
