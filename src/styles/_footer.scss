@@ -4,7 +4,7 @@
 .footer {
     padding-top: 80px;
   
-    p, a{
+    p{
       color: #868E96;
     }
   
@@ -26,7 +26,6 @@
     color: $whiteColor;
     padding: 1rem 0;
     border-top: 1px solid $lightGrey;
-    font-weight: bold;
   
     a{
       display: inline-block !important;
